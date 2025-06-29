@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Majelis Kerohanian Islam</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #007BFF;
+      --primary-light: #66b3ff;
+      --primary-dark: #0056b3;
+      --gradient-start: #0047ab;
+      --gradient-end: #00bfff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #e6f2ff, #cce6ff);
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+      padding: 40px 15px;
+      font-size: 30px;
+      font-weight: 700;
+      color: white;
+      letter-spacing: 1px;
+    }
+
+    section {
+      margin: 40px 20px;
+    }
+
+    h2 {
+      color: var(--gradient-start);
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      display: block;
+      width: 85%;
+      max-width: 350px;
+      margin: 15px auto;
+      padding: 16px 22px;
+      background: linear-gradient(to right, var(--primary), var(--primary-light));
+      color: white;
+      text-decoration: none;
+      border: none;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 16px;
+      box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .button:hover {
+      transform: scale(1.05);
+      background: linear-gradient(to right, var(--primary-dark), var(--primary));
+    }
+
+    @media (min-width: 768px) {
+      header {
+        font-size: 36px;
+      }
+
+      h2 {
+        font-size: 26px;
+      }
+
+      .button {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Majelis Kerohanian Islam
+  </header>
+
+  <section>
+    <h2>Informasi</h2>
+    <a href="https://drive.google.com/drive/folders/1qoifZqAqwWOCdDOJ57uxHx6jTM6vB7Bl?usp=sharing" class="button">SOP MEDIA PARTNER</a>
+  </section>
+
+  <section>
+    <h2>Narahubung</h2>
+    <a href="https://wa.me/6282158479587" class="button">Narahubung Kolaborasi</a>
+    <a href="https://wa.me/6285800297026" class="button">Narahubung Delegasi</a>
+  </section>
+
+</body>
+</html>
