@@ -7,27 +7,43 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --primary: #007BFF;
-      --primary-light: #66b3ff;
-      --primary-dark: #0056b3;
-      --gradient-start: #0047ab;
-      --gradient-end: #00bfff;
+      --primary: #28a745;
+      --primary-light: #6fdc7b;
+      --primary-dark: #1e7e34;
+      --gradient-start: #1c8c42;
+      --gradient-end: #65d68f;
     }
 
     body {
       margin: 0;
       font-family: 'Poppins', sans-serif;
-      background: linear-gradient(to bottom, #e6f2ff, #cce6ff);
+      background: linear-gradient(to bottom, #eaffea, #d1f7d5);
       color: #fff;
       text-align: center;
     }
 
     header {
       background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-      padding: 40px 15px;
-      font-size: 30px;
-      font-weight: 700;
+      padding: 30px 15px;
       color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    header h1 {
+      font-size: 26px;
+      font-weight: 700;
+      margin: 0;
       letter-spacing: 1px;
     }
 
@@ -54,7 +70,7 @@
       border-radius: 12px;
       font-weight: 600;
       font-size: 16px;
-      box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+      box-shadow: 0 4px 10px rgba(40, 167, 69, 0.3);
       transition: all 0.3s ease-in-out;
     }
 
@@ -64,8 +80,8 @@
     }
 
     @media (min-width: 768px) {
-      header {
-        font-size: 36px;
+      header h1 {
+        font-size: 32px;
       }
 
       h2 {
@@ -81,7 +97,8 @@
 <body>
 
   <header>
-    Majelis Kerohanian Islam
+    <img src="bla.jpg" alt="Logo Majelis">
+    <h1>Majelis Kerohanian Islam</h1>
   </header>
 
   <section>
